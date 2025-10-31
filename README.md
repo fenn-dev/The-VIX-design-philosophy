@@ -79,3 +79,5 @@ is **mandatory** for both readability and compiler efficiency.
 
 For **quick-fail paths**, a combination of `[[unlikely]]` and `[[noreturn]]` is **strongly recommended**.
 
+![VIX Logo](VIX.svg)
+Created by Sondre Rasmussen
