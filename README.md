@@ -67,6 +67,7 @@ You generally want to limit `else` blocks when possible.
 ---
 
 ### Attributes
+
 Using attributes such as:
 
 - `[[unlikely]]`
@@ -76,4 +77,5 @@ Using attributes such as:
 
 is **mandatory** for both readability and compiler efficiency.
 
-A combination of `[[unlikely]]` and `[[noreturn]]` is reccomended for Quick fails
+For **quick-fail paths**, a combination of `[[unlikely]]` and `[[noreturn]]` is **strongly recommended**.
+
