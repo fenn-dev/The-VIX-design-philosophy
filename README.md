@@ -72,5 +72,8 @@ Using attributes such as:
 - `[[unlikely]]`
 - `[[nodiscard]]`
 - `[[likely]]`
+- `[[noreturn]]`
 
 is **mandatory** for both readability and compiler efficiency.
+
+A combination of `[[unlikely]]`cpp and `[[noreturn]]`cpp is useful for Quick fails
