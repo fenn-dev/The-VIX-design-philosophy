@@ -68,7 +68,7 @@ For file name consistency, it is preffered to use cammelCase names. And to seper
 ---
 For local variables, use camelCase
 ---
-Hungarian Notation is to be avoided, so things like ```int iCount```cpp, ```enum eOptions```cpp
+Hungarian Notation is to be avoided, so things like `int iCount`, `enum eOptions`
 
 ### Indentation
 > As ***Linus Torvalds*** once famously said,  
