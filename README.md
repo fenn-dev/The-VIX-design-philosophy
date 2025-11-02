@@ -55,19 +55,33 @@ import header;        // For actual module compilation
 ### Naming conventions
 Variables must prioritize readabiliity and understand, so anyone who reads the code, will be able to understand it.
 This mean, variables must contain more than one letter. 
+
 ---
+
 For private sections classes `private:` use an "_" to emphesize its concealed intent clear and to prevent homonymys in the code.
+
 ---
+
 Classes is to be named using PascalCase, this means to capitalize the first letter of each word instead of using _ to seperate them: `MyClass3D`.
+
 ---
+
 For interfaces / Interface classes, commonly used for bridging between source code and DLL, SO files. A capitalized I is to be put before the first letter and the name of the class is still to be written in PastcalCase.
+
 ---
+
 Constant values are to be written with full capital letters. Such as `PI` which will always be 3.14... no matter what.
+
 ---
+
 For file name consistency, it is preffered to use cammelCase names. And to seperate branding from intent, use _: `renderHandler.ixx`, `TheVIXengine_implementation.cpp`.
+
 ---
+
 For local variables, use camelCase
+
 ---
+
 Hungarian Notation is to be avoided, so things like `int iCount`, `enum eOptions`
 
 ### Indentation
